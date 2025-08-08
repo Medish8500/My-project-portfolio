@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mohamed Sam - Portfolio</title>
+  <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+  <!-- header section -->
+  <header>
+    <nav>
+      <h1>Mohamed Sam</h1>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+<!-- Home section -->
+  <section id="home">
+    <h2>Welcome to My Portfolio</h2>
+    <img src="../assests/profile.jpg" alt="Profile Image" />
+    <p>Aspiring Web Developer</p>
+  </section>
+<!-- About me section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I’m Mohamed Sam, a passionate web developer learning to build beautiful and functional websites.</p>
+    <ul>
+      <li>HTML, CSS, JavaScript</li>
+      <li>Team Collaboration</li>
+    </ul>
+    <!-- download cv -->
+     <a href="../html/project cv.pdf" download>
+      <button>download My CV</button>
+     </a>
+  </section>
+<!-- project section -->
+  <section id="projects">
+    <h2>My Projects</h2>
+    <div class="project-card">
+      <h3>Project One</h3>
+      <img src="../assests/image 1.jpg" alt="Project One Image" />
+      <p>Simple static website showcasing a portfolio layout.</p>
+    </div>
+    <div class="project-card">
+      <h3>Project Two</h3>
+      <img src="../assests/image 2.jpg" alt="Project Two Image" />
+      <p>Interactive form with JavaScript validation.</p>
+    </div>
+  </section>
+<!-- contact section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+<!-- footer section -->
+  <footer>
+    <p>© 2025 Mohamed Sam</p>
+  </footer>
+<!-- js link -->
+  <script src="../js/style.js"></script>
+</body>
+</html>
